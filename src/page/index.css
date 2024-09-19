@@ -1,17 +1,22 @@
 :root {
-  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-    "Source Han Sans CN", sans-serif;
+  --default-font-family: 'Play', sans-serif;
+    --primary-color: #e31937;
+  --secondary-color: #000000;
+ 
 }
-
-.main-container {
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main-container,
 .main-container * {
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
 }
 
 input,
@@ -22,20 +27,27 @@ button {
 }
 
 .main-container {
+  background: var(--primary-color);
   position: relative;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 4143px;
   margin: 0 auto;
-  background: #e31937;
   border: 1px solid #000000;
   overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
+
 }
+
 .background {
   position: relative;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
+  text-align: center;
   height: 74px;
   margin: 0 0 0 0;
-  background: #000000;
+  background: var(--secondary-color);
   z-index: 52;
   backdrop-filter: blur(10px);
 }
@@ -45,10 +57,10 @@ button {
   height: 79.73%;
   top: 10.81%;
   left: 7.71%;
-  background: url(../assets/images/10609306092f4d9d54125680825204e6e36e1b45.png)
-    no-repeat center;
+  background: url(../assets/images/image.png) no-repeat center;
   background-size: cover;
   z-index: 54;
+  
 }
 .projeto {
   display: flex;
@@ -110,7 +122,7 @@ button {
   height: 54.76%;
   top: 23.11%;
   left: 7.17%;
-  background: url(../assets/images/29f891c3-be9d-4efc-ac50-958087279b62.png)
+  background: url(../assets/images/line.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 56;
@@ -121,7 +133,7 @@ button {
   height: 34.33%;
   top: 34.46%;
   left: 1.82%;
-  background: url(../assets/images/64869342-0b77-4e3e-8d4b-0a3411336a3a.png)
+  background: url(../assets/images/image-traced.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 55;
@@ -132,7 +144,7 @@ button {
   height: 1px;
   top: 54.384px;
   left: 1061.999px;
-  background: url(../assets/images/737ec10e-ad76-462b-900c-380a0fadbc80.png)
+  background: url(../assets/images/line-1.png)
     no-repeat center;
   background-size: cover;
   z-index: 59;
@@ -143,7 +155,7 @@ button {
   height: 1px;
   top: 54.384px;
   left: 874.219px;
-  background: url(../assets/images/3d693742-1d1f-4cba-84c6-82254281f3e9.png)
+  background: url(../assets/images/line-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 62;
@@ -154,7 +166,7 @@ button {
   height: 1px;
   top: 54.384px;
   left: 703.51px;
-  background: url(../assets/images/56547266-5a14-4d2b-998f-c825ab6b7d05.png)
+  background: url(../assets/images/line-3.png)
     no-repeat center;
   background-size: cover;
   z-index: 65;
@@ -183,7 +195,7 @@ button {
   width: 370px;
   height: 25px;
   margin: 11px 0 0 775px;
-  background: url(../assets/images/e9dbd576-6416-453b-b62b-7e9b0603d8c3.png)
+  background: url(../assets/images/line-4.png)
     no-repeat center;
   background-size: cover;
   z-index: 33;
@@ -193,7 +205,7 @@ button {
   width: 1671.536px;
   height: 361.799px;
   margin: 39px 0 0 126.874px;
-  background: url(../assets/images/26cd726b-f314-4db9-a9bd-11ae07a1da16.png)
+  background: url(../assets/images/rectangle.png)
     no-repeat center;
   background-size: cover;
   z-index: 37;
@@ -220,14 +232,15 @@ button {
   width: 1736px;
   height: 5px;
   margin: 73.201px 0 0 91px;
-  background: url(../assets/images/763fc10e-2372-4c34-8fa5-7c414d379b42.png)
+  background: url(../assets/images/rectangle-5.png)
     no-repeat center;
   background-size: cover;
   z-index: 35;
 }
 .rectangle-6 {
   position: relative;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 933px;
   margin: 134px 0 0 0;
   font-size: 0px;
@@ -259,7 +272,7 @@ button {
   width: 420px;
   height: 25px;
   margin: 4px 0 0 750px;
-  background: url(../assets/images/60b0dad4-7833-4cf4-a2f7-f3cf469acb41.png)
+  background: url(../assets/images/line-7.png)
     no-repeat center;
   background-size: cover;
   z-index: 25;
@@ -277,7 +290,7 @@ button {
   height: 622px;
   top: 0;
   left: 0;
-  background: url(../assets/images/acbaba92-f1d3-4a32-90d5-8248dcbfcc0e.png)
+  background: url(../assets/images/image-8.png)
     no-repeat center;
   background-size: cover;
   z-index: 29;
@@ -288,7 +301,7 @@ button {
   height: 645.041px;
   top: 11.956px;
   left: 50%;
-  background: url(../assets/images/e5037588-6421-4375-a653-98ca770e2f9a.png)
+  background: url(../assets/images/rectangle-9.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-49.08%, 0);
@@ -313,21 +326,22 @@ button {
 }
 .banner {
   position: absolute;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 496px;
   top: 124px;
-  left: -1px;
-  background: url(../assets/images/94bbc666-0c62-490c-b0c1-51981d82faf8.png)
+
+  background: url(../assets/images/banner.png)
     no-repeat center;
   background-size: cover;
   z-index: 42;
 }
 .background-a {
   position: absolute;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 1227px;
   top: 569px;
-  left: -1px;
   font-size: 0px;
   background: #ffffff;
   z-index: 22;
@@ -356,7 +370,7 @@ button {
   width: 320px;
   height: 25px;
   margin: 3px 0 0 800px;
-  background: url(../assets/images/9a78d96b-6041-4bec-83d0-07958ec24f8b.png)
+  background: url(../assets/images/line-b.png)
     no-repeat center;
   background-size: cover;
   z-index: 44;
@@ -365,10 +379,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   width: 1386px;
-  height: 140px;
-  margin: 30px 0 0 262px;
+  height: 160px;
+  margin: 30px 0 30px 262px;
   color: #000000;
   font-family: Play, var(--default-font-family);
   font-size: 30px;
@@ -385,7 +398,7 @@ button {
   width: 1736px;
   height: 5px;
   margin: 227px 0 0 92px;
-  background: url(../assets/images/5fe17a2f-e2ca-4d85-8096-79c91aa408ec.png)
+  background: url(../assets/images/rectangle-c.png)
     no-repeat center;
   background-size: cover;
   z-index: 46;
@@ -414,7 +427,7 @@ button {
   width: 420px;
   height: 25px;
   margin: 4px 0 0 750px;
-  background: url(../assets/images/ac1e8723-231d-419f-95ca-fae6fe2c5d93.png)
+  background: url(../assets/images/line-d.png)
     no-repeat center;
   background-size: cover;
   z-index: 31;
@@ -424,7 +437,7 @@ button {
   width: 1671.41px;
   height: 264.118px;
   margin: 24px 0 0 124px;
-  background: url(../assets/images/62c675a1-e1f5-481e-9ae0-674ec7b887a0.png)
+  background: url(../assets/images/rectangle-e.png)
     no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -452,7 +465,7 @@ button {
   height: 10.59%;
   top: 29.58%;
   left: 50.45%;
-  background: url(../assets/images/10609306092f4d9d54125680825204e6e36e1b45.png)
+  background: url(../assets/images/image.png)
     no-repeat center;
   background-size: cover;
   z-index: 48;
@@ -463,7 +476,7 @@ button {
   height: 7.5%;
   top: 31.1%;
   left: 49.18%;
-  background: url(../assets/images/194833a6-9d75-4f51-b182-55b6a10382ce.png)
+  background: url(../assets/images/line-10.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 50;
@@ -474,18 +487,18 @@ button {
   height: 4.56%;
   top: 32.73%;
   left: 37.4%;
-  background: url(../assets/images/59381cb4-db0f-43a0-8f04-49a6b280b87e.png)
+  background: url(../assets/images/image-traced-11.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 49;
 }
 .tokyo-race-start {
   position: absolute;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 315px;
   top: 1568px;
-  left: -1px;
-  background: url(../assets/images/3cf54d10-41b2-448b-805d-78831e251fab.png)
+  background: url(../assets/images/tokyo-race-start.png)
     no-repeat center;
   background-size: cover;
   filter: blur(2px);
@@ -497,7 +510,7 @@ button {
   height: 295.728px;
   top: 3572px;
   left: 50%;
-  background: url(../assets/images/70d747e1-1727-4404-8cec-9b687d1274e6.png)
+  background: url(../assets/images/image-removebg-preview.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50.1%, 0);
@@ -505,7 +518,8 @@ button {
 }
 .background-12 {
   position: absolute;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   height: 330px;
   top: 3812px;
   left: -1px;
@@ -616,7 +630,7 @@ button {
   height: 1px;
   top: 43.519px;
   left: 207.969px;
-  background: url(../assets/images/0a2b725b-9f55-4753-a55c-a38347507b21.png)
+  background: url(../assets/images/line-19.png)
     no-repeat center;
   background-size: cover;
   z-index: 19;
@@ -627,7 +641,7 @@ button {
   height: 1px;
   top: 43.519px;
   left: 378.234px;
-  background: url(../assets/images/572fee1b-2632-433d-889b-4e0ef2ed3201.png)
+  background: url(../assets/images/line-17.png)
     no-repeat center;
   background-size: cover;
   z-index: 16;
@@ -638,7 +652,7 @@ button {
   height: 1px;
   top: 43.519px;
   left: 565.526px;
-  background: url(../assets/images/2a880dcb-09ef-48ef-b2d9-e00edcaf60ba.png)
+  background: url(../assets/images/line-18.png)
     no-repeat center;
   background-size: cover;
   z-index: 13;
@@ -649,7 +663,7 @@ button {
   height: 1px;
   top: 43.544px;
   left: 6.811px;
-  background: url(../assets/images/d1196d2d-0c38-4f3b-889d-f359c3946946.png)
+  background: url(../assets/images/line-19.png)
     no-repeat center;
   background-size: cover;
   z-index: 10;
@@ -669,7 +683,7 @@ button {
   position: relative;
   width: 41px;
   height: 41px;
-  background: url(../assets/images/70eee6bc-f44d-49cf-8a9f-fafcf7ea27de.png)
+  background: url(../assets/images/image-traced-1b.png)
     no-repeat center;
   background-size: cover;
   z-index: 5;
@@ -679,7 +693,7 @@ button {
   position: relative;
   width: 44px;
   height: 43px;
-  background: url(../assets/images/d3928ec4-d031-412e-b0ac-8babac22934c.png)
+  background: url(../assets/images/image-traced-1c.png)
     no-repeat center;
   background-size: cover;
   z-index: 6;
@@ -689,7 +703,7 @@ button {
   position: relative;
   width: 44px;
   height: 44px;
-  background: url(../assets/images/07539f53-60ee-4dc8-bcb6-defab1fc3d0f.png)
+  background: url(../assets/images/image-traced-1d.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;
@@ -710,4 +724,11 @@ button {
   text-align: center;
   letter-spacing: 2px;
   z-index: 3;
+}
+@media (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+  }
 }
