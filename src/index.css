@@ -198,3 +198,21 @@ h1, h2 {
   border-radius: 20px;
 }
 
+.botoes-pontos {
+  display: flex;
+  gap: 20vw;
+}
+
+.botoes-pontos button{
+  padding: 3vw;
+  font-family: var(--default-font-family);
+  border: none;
+  border-radius: 2vw;
+  background-color: #C8102E;
+  color: #ffffff;
+}
+
+.div-pontos{
+  display: flex;
+  font-size: 30px;
+}

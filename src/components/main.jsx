@@ -3,6 +3,7 @@ import Nav from './nav';
 import Banner from './banner';
 import Live from './live';
 import GetPoints from './getPoints';
+import GetPowers from './getPowers';
 
 const main = () => {
   return (
@@ -11,6 +12,7 @@ const main = () => {
         <Banner interval={5000} />
         <Live/>
         <GetPoints/>
+        <GetPowers/>
     </div>
   )
 }

@@ -7,10 +7,14 @@ const nav = () => {
           </div>
           <div>
             <ul>
-              <li><a href="#sobre">LIVE!</a></li>
-              <li><a href="#projeto">ADQUIRIR-PONTOS</a></li>
-              <li><a href="#impactos">COMPRAR-PODERES</a></li>
+              <li><a href="#live">LIVE!</a></li>
+              <li><a href="#get-points">ADQUIRIR-PONTOS</a></li>
+              <li><a href="#get-powers">COMPRAR-PODERES</a></li>
             </ul>
+          </div>
+          <div className="div-pontos">
+            <p className="pontos">0</p>
+            <p>P</p>
           </div>
         </nav>
       </header>
