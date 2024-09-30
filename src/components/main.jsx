@@ -1,8 +1,17 @@
-import Nav from "./nav"
+import React from 'react';
+import Nav from './nav';
+import Banner from './banner';
+import Live from './live';
+import GetPoints from './getPoints';
 
 const main = () => {
   return (
-    <Nav/>
+    <div>
+        <Nav/>
+        <Banner interval={5000} />
+        <Live/>
+        <GetPoints/>
+    </div>
   )
 }
 
