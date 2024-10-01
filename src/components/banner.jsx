@@ -6,7 +6,7 @@ import image3 from '../assets/images/banner3.png';
 
 const Banner = ({ interval = 3000 }) => {
     const images = [image1, image2, image3];
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);  
   
     const goToNext = () => {
       setCurrentIndex((prevIndex) =>
